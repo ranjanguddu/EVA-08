@@ -273,6 +273,204 @@ for epoch in range(1, 50):
     train(model, device, train_loader, optimizer, epoch)
     test(model, device, test_loader)
 ```
+## 7. Training Logs:
+```python
+epoch 1
+loss1=1.4714 loss2=2.9005 batch_id=749: 100%|██████████| 750/750 [00:15<00:00, 49.54it/s]
+Test Set: Total Loss:4.403     MNIST Accuray:96.783%		      Sum Accuracy:11.117% 
+
+epoch 2
+loss1=1.4821 loss2=2.8687 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 53.82it/s]
+Test Set: Total Loss:4.386     MNIST Accuray:97.883%		      Sum Accuracy:11.408% 
+
+epoch 3
+loss1=1.4920 loss2=2.9053 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.29it/s]
+Test Set: Total Loss:4.380     MNIST Accuray:98.183%		      Sum Accuracy:11.608% 
+
+epoch 4
+loss1=1.4831 loss2=2.9152 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.36it/s]
+Test Set: Total Loss:4.376     MNIST Accuray:98.325%		      Sum Accuracy:11.692% 
+
+epoch 5
+loss1=1.4941 loss2=2.8895 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.08it/s]
+Test Set: Total Loss:4.382     MNIST Accuray:97.292%		      Sum Accuracy:12.858% 
+
+epoch 6
+loss1=1.4884 loss2=2.8228 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 53.92it/s]
+Test Set: Total Loss:4.335     MNIST Accuray:97.567%		      Sum Accuracy:18.892% 
+
+epoch 7
+loss1=1.4864 loss2=2.6295 batch_id=749: 100%|██████████| 750/750 [00:14<00:00, 53.34it/s]
+Test Set: Total Loss:4.214     MNIST Accuray:98.375%		      Sum Accuracy:30.025% 
+
+epoch 8
+loss1=1.4848 loss2=2.6382 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.26it/s]
+Test Set: Total Loss:4.202     MNIST Accuray:98.642%		      Sum Accuracy:30.483% 
+
+epoch 9
+loss1=1.4923 loss2=2.6978 batch_id=749: 100%|██████████| 750/750 [00:14<00:00, 50.09it/s]
+Test Set: Total Loss:4.185     MNIST Accuray:98.650%		      Sum Accuracy:31.767% 
+
+epoch 10
+loss1=1.4806 loss2=2.6665 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 55.04it/s]
+Test Set: Total Loss:4.181     MNIST Accuray:98.775%		      Sum Accuracy:31.875% 
+
+epoch 11
+loss1=1.5009 loss2=2.6664 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.91it/s]
+Test Set: Total Loss:4.107     MNIST Accuray:98.792%		      Sum Accuracy:40.858% 
+
+epoch 12
+loss1=1.4630 loss2=2.6215 batch_id=749: 100%|██████████| 750/750 [00:14<00:00, 53.44it/s]
+Test Set: Total Loss:4.078     MNIST Accuray:98.758%		      Sum Accuracy:42.333% 
+
+epoch 13
+loss1=1.4776 loss2=2.6010 batch_id=749: 100%|██████████| 750/750 [00:14<00:00, 51.55it/s]
+Test Set: Total Loss:4.074     MNIST Accuray:98.767%		      Sum Accuracy:42.458% 
+
+epoch 14
+loss1=1.4639 loss2=2.3858 batch_id=749: 100%|██████████| 750/750 [00:14<00:00, 52.90it/s]
+Test Set: Total Loss:3.904     MNIST Accuray:98.592%		      Sum Accuracy:60.717% 
+
+epoch 15
+loss1=1.4703 loss2=2.4029 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.93it/s]
+Test Set: Total Loss:3.880     MNIST Accuray:98.717%		      Sum Accuracy:62.700% 
+
+epoch 16
+loss1=1.4623 loss2=2.4158 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.34it/s]
+Test Set: Total Loss:3.877     MNIST Accuray:98.567%		      Sum Accuracy:62.958% 
+
+epoch 17
+loss1=1.4935 loss2=2.4686 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.28it/s]
+Test Set: Total Loss:3.873     MNIST Accuray:98.858%		      Sum Accuracy:63.125% 
+
+epoch 18
+loss1=1.5037 loss2=2.3673 batch_id=749: 100%|██████████| 750/750 [00:14<00:00, 53.45it/s]
+Test Set: Total Loss:3.870     MNIST Accuray:98.792%		      Sum Accuracy:63.217% 
+
+epoch 19
+loss1=1.4679 loss2=2.3322 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.57it/s]
+Test Set: Total Loss:3.868     MNIST Accuray:98.892%		      Sum Accuracy:63.400% 
+
+epoch 20
+loss1=1.4732 loss2=2.4481 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 55.10it/s]
+Test Set: Total Loss:3.868     MNIST Accuray:98.783%		      Sum Accuracy:63.375% 
+
+epoch 21
+loss1=1.5259 loss2=2.4212 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.57it/s]
+Test Set: Total Loss:3.863     MNIST Accuray:98.908%		      Sum Accuracy:63.600% 
+
+epoch 22
+loss1=1.4904 loss2=2.3124 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.58it/s]
+Test Set: Total Loss:3.827     MNIST Accuray:98.600%		      Sum Accuracy:67.833% 
+
+epoch 23
+loss1=1.4704 loss2=2.4174 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.75it/s]
+Test Set: Total Loss:3.811     MNIST Accuray:98.950%		      Sum Accuracy:68.900% 
+
+epoch 24
+loss1=1.4939 loss2=2.4482 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.93it/s]
+Test Set: Total Loss:3.816     MNIST Accuray:98.775%		      Sum Accuracy:68.517% 
+
+epoch 25
+loss1=1.4771 loss2=2.3382 batch_id=749: 100%|██████████| 750/750 [00:14<00:00, 53.41it/s]
+Test Set: Total Loss:3.807     MNIST Accuray:99.025%		      Sum Accuracy:69.167% 
+
+epoch 26
+loss1=1.4669 loss2=2.3242 batch_id=749: 100%|██████████| 750/750 [00:15<00:00, 49.07it/s]
+Test Set: Total Loss:3.808     MNIST Accuray:98.883%		      Sum Accuracy:69.083% 
+
+epoch 27
+loss1=1.4617 loss2=2.3082 batch_id=749: 100%|██████████| 750/750 [00:14<00:00, 53.01it/s]
+Test Set: Total Loss:3.807     MNIST Accuray:99.033%		      Sum Accuracy:69.158% 
+
+epoch 28
+loss1=1.4716 loss2=2.2314 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.10it/s]
+Test Set: Total Loss:3.807     MNIST Accuray:98.908%		      Sum Accuracy:69.192% 
+
+epoch 29
+loss1=1.4768 loss2=2.3367 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 53.87it/s]
+Test Set: Total Loss:3.805     MNIST Accuray:99.067%		      Sum Accuracy:69.208% 
+
+epoch 30
+loss1=1.4738 loss2=2.4448 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.17it/s]
+Test Set: Total Loss:3.802     MNIST Accuray:99.050%		      Sum Accuracy:69.158% 
+
+epoch 31
+loss1=1.4614 loss2=2.3383 batch_id=749: 100%|██████████| 750/750 [00:14<00:00, 53.50it/s]
+Test Set: Total Loss:3.772     MNIST Accuray:99.042%		      Sum Accuracy:72.608% 
+
+epoch 32
+loss1=1.4885 loss2=2.2652 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.02it/s]
+Test Set: Total Loss:3.772     MNIST Accuray:99.133%		      Sum Accuracy:72.550% 
+
+epoch 33
+loss1=1.5028 loss2=2.2927 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 53.87it/s]
+Test Set: Total Loss:3.775     MNIST Accuray:98.867%		      Sum Accuracy:72.442% 
+
+epoch 34
+loss1=1.4614 loss2=2.1847 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.28it/s]
+Test Set: Total Loss:3.770     MNIST Accuray:99.142%		      Sum Accuracy:72.650% 
+
+epoch 35
+loss1=1.4619 loss2=2.3218 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 53.86it/s]
+Test Set: Total Loss:3.769     MNIST Accuray:99.183%		      Sum Accuracy:72.658% 
+
+epoch 36
+loss1=1.4617 loss2=2.2449 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 53.73it/s]
+Test Set: Total Loss:3.767     MNIST Accuray:99.200%		      Sum Accuracy:72.758% 
+
+epoch 37
+loss1=1.4711 loss2=2.2908 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.09it/s]
+Test Set: Total Loss:3.769     MNIST Accuray:99.183%		      Sum Accuracy:72.725% 
+
+epoch 38
+loss1=1.5150 loss2=2.2972 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 53.93it/s]
+Test Set: Total Loss:3.771     MNIST Accuray:99.150%		      Sum Accuracy:72.508% 
+
+epoch 39
+loss1=1.4612 loss2=2.2116 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 53.70it/s]
+Test Set: Total Loss:3.770     MNIST Accuray:99.108%		      Sum Accuracy:72.675% 
+
+epoch 40
+loss1=1.4810 loss2=2.3127 batch_id=749: 100%|██████████| 750/750 [00:14<00:00, 53.45it/s]
+Test Set: Total Loss:3.770     MNIST Accuray:99.058%		      Sum Accuracy:72.717% 
+
+epoch 41
+loss1=1.4814 loss2=2.2917 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 53.74it/s]
+Test Set: Total Loss:3.770     MNIST Accuray:98.983%		      Sum Accuracy:72.633% 
+
+epoch 42
+loss1=1.4646 loss2=2.2595 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 53.71it/s]
+Test Set: Total Loss:3.766     MNIST Accuray:99.242%		      Sum Accuracy:72.858% 
+
+epoch 43
+loss1=1.4613 loss2=2.3628 batch_id=749: 100%|██████████| 750/750 [00:14<00:00, 53.53it/s]
+Test Set: Total Loss:3.762     MNIST Accuray:99.192%		      Sum Accuracy:73.617% 
+
+epoch 44
+loss1=1.4762 loss2=2.1943 batch_id=749: 100%|██████████| 750/750 [00:15<00:00, 48.24it/s]
+Test Set: Total Loss:3.758     MNIST Accuray:99.158%		      Sum Accuracy:73.742% 
+
+epoch 45
+loss1=1.4612 loss2=2.2750 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 53.59it/s]
+Test Set: Total Loss:3.761     MNIST Accuray:99.067%		      Sum Accuracy:73.592% 
+
+epoch 46
+loss1=1.4642 loss2=2.3062 batch_id=749: 100%|██████████| 750/750 [00:13<00:00, 54.04it/s]
+Test Set: Total Loss:3.760     MNIST Accuray:99.192%		      Sum Accuracy:73.558% 
+
+epoch 47
+loss1=1.4772 loss2=2.2571 batch_id=749: 100%|██████████| 750/750 [00:14<00:00, 52.92it/s]
+Test Set: Total Loss:3.759     MNIST Accuray:99.100%		      Sum Accuracy:73.633% 
+
+epoch 48
+loss1=1.4767 loss2=2.2449 batch_id=749: 100%|██████████| 750/750 [00:14<00:00, 51.94it/s]
+Test Set: Total Loss:3.757     MNIST Accuray:99.225%		      Sum Accuracy:73.767% 
+
+epoch 49
+loss1=1.4612 loss2=2.2761 batch_id=749: 100%|██████████| 750/750 [00:14<00:00, 52.81it/s]
+Test Set: Total Loss:3.760     MNIST Accuray:99.183%		      Sum Accuracy:73.533% 
+```
 
 
 
